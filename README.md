@@ -16,23 +16,23 @@ _all = _instance.fetch_all()
 
 #### Methods:
 ```python
-fetch_all(): fetches all the regions' leaderboards, conglomerates them into one object/dict, and returns said object
+fetch_all(): fetches all the regions' leaderboards and returns them as an array of dicts
 
-fetch_global(): fetches the leaderboard for Global rankings, conglomerates them into one object/dict, and returns said object
+fetch_global(): fetches the leaderboard for Global rankings and returns them as an array of dicts
 
-fetch_europe(): fetches the leaderboard for European rankings, conglomerates them into one object/dict, and returns said object
+fetch_europe(): fetches the leaderboard for European rankings and returns them as an array of dicts
 
-fetch_africa(): fetches the leaderboard for African rankings, conglomerates them into one object/dict, and returns said object
+fetch_africa(): fetches the leaderboard for African rankings and returns them as an array of dicts
 
-fetch_asia(): fetches the leaderboard for Asian rankings, conglomerates them into one object/dict, and returns said object
+fetch_asia(): fetches the leaderboard for Asian rankings and returns them as an array of dicts
 
-fetch_australia(): fetches the leaderboard for Australian rankings, conglomerates them into one object/dict, and returns said object
+fetch_australia(): fetches the leaderboard for Australian rankings and returns them as an array of dicts
 
-fetch_china(): fetches the leaderboard for Chinese rankings, conglomerates them into one object/dict, and returns said object
+fetch_china(): fetches the leaderboard for Chinese rankings and returns them as an array of dicts
 
-fetch_northamerica(): fetches the leaderboard for NA rankings, conglomerates them into one object/dict, and returns said object
+fetch_northamerica(): fetches the leaderboard for NA rankings and returns them as an array of dicts
 
-fetch_southamerica(): fetches the leaderboard for SA rankings, conglomerates them into one object/dict, and returns said object
+fetch_southamerica(): fetches the leaderboard for SA rankings and returns them as an array of dicts
 ```
 
 #### Example Output:
