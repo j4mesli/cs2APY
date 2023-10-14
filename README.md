@@ -4,13 +4,13 @@ Counter-Strike 2 Premier Leaderboard API Module & Raw API in `Python3`.
 
 #### Example Use:
 ```python
-import cs2leaderboard as cs2
+import CS2APY as cs2
 
 # w/o manual class instantiation, fetches all leaderboards
 all = cs2.fetch_all()
 
 # w/ instantiation, fetches all leaderboards
-_instance = cs2.cs2leaderboard()
+_instance = cs2.CS2APY()
 _all = _instance.fetch_all()
 ```
 
@@ -37,7 +37,7 @@ fetch_southamerica(): fetches the leaderboard for SA rankings and returns them a
 
 #### Example Output:
 ```python
-import cs2leaderboard as cs2
+import CS2APY as cs2
 
 africa = cs2.fetch_africa()
 print(africa)
