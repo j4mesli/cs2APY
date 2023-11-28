@@ -37,10 +37,14 @@ def fetch_northamerica():
 def fetch_southamerica():
     return fetch_leaderboard('southamerica')
 
-def fetch_leaderboard(region):
-    response = requests.get(f"{url}{current_season}{'' if region == 'global' else '_' + region}")
-    data = response.json()
-    return data
+def fetch_leaderboard(region, season = current_season):
+    try:
+        response = requests.get(f"{url}{season if season else current_season}{'' if region == 'global' else '_' + region}")
+        data = response.json()
+        return data
+    except:
+        print("Error fetching leaderboard data, invalid season provided!")
+        return None
 
 def decode(data: bytes) -> ScoreLeaderboardData:
     message = ScoreLeaderboardData()
