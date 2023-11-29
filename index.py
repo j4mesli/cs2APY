@@ -6,6 +6,9 @@ import os
 
 url = "https://api.steampowered.com/ICSGOServers_730/GetLeaderboardEntries/v1?format=json&lbname=official_leaderboard_premier_"
 current_season = "season1"
+with open('maps.json', 'r', encoding="utf8") as obj:
+    mapsRaw = json.load(obj)
+    maps = mapsRaw[current_season]
 
 def fetch_all():
     regions = []
@@ -50,18 +53,6 @@ def decode(data: bytes) -> ScoreLeaderboardData:
     message = ScoreLeaderboardData()
     message.ParseFromString(data)
     return message
-
-maps = [
-    "anubis",
-    "inferno",
-    "mirage",
-    "vertigo",
-    "overpass",
-    "nuke",
-    "ancient",
-    None
-]
-
 
 def decode_data_details(data):
     data2 = data[2:].rstrip('00')
