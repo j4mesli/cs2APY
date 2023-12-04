@@ -2,6 +2,10 @@
 
 Counter-Strike 2 Premier Leaderboard API Module & Raw API in `Python3`.
 
+#### Installation
+```
+pip install CS2APY
+```
 #### Example Use:
 ```python
 import CS2APY as cs2
