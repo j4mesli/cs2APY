@@ -140,8 +140,3 @@ def fetch_northamerica():
 
 def fetch_southamerica():
     return _instance.fetch_southamerica()
-
-if __name__ == "__main__":
-    leaderboard = CS2APY()
-    data = leaderboard.fetch_all()
-    print(data)
