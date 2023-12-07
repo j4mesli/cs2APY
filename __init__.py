@@ -7,3 +7,4 @@ from .CS2APY import fetch_australia
 from .CS2APY import fetch_china
 from .CS2APY import fetch_northamerica
 from .CS2APY import fetch_southamerica
+from . import CS2APY

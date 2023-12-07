@@ -14,7 +14,7 @@ setup(
     package_data={
         '': ['maps.json', 'scoreboard.proto'],
     },
-    scripts=['CS2APY.py', 'scoreboard_pb2.py'],
+    scripts=['CS2APY.py', 'scoreboard_pb2.py', '__init__.py'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
