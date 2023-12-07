@@ -8,6 +8,7 @@ pip install CS2APY
 ```
 #### Example Use:
 ```python
+# CASE SENSITIVE
 import CS2APY as cs2
 
 # w/o manual class instantiation, fetches all leaderboards
