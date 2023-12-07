@@ -1,10 +1,3 @@
 from . import CS2APY
-from .CS2APY import fetch_all
-from .CS2APY import fetch_global
-from .CS2APY import fetch_europe
-from .CS2APY import fetch_africa
-from .CS2APY import fetch_asia
-from .CS2APY import fetch_australia
-from .CS2APY import fetch_china
-from .CS2APY import fetch_northamerica
-from .CS2APY import fetch_southamerica
+from .scoreboard_pb2 import ScoreLeaderboardData
+from .CS2APY import fetch_all, fetch_global, fetch_europe, fetch_africa, fetch_asia, fetch_australia, fetch_china, fetch_northamerica, fetch_southamerica

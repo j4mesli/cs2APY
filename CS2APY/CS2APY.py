@@ -1,4 +1,4 @@
-from scoreboard_pb2 import ScoreLeaderboardData
+from .scoreboard_pb2 import ScoreLeaderboardData
 import requests
 from datetime import datetime
 

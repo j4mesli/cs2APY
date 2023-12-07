@@ -1,8 +1,12 @@
 from setuptools import setup, find_packages
 
+# Find packages
+packages = find_packages()
+print("Found packages:", packages)
+
 setup(
     name='CS2APY',
-    version='0.3',
+    version='0.5',
     author='James Li',
     author_email='jamesli196q@gmail.com',
     description='A high-level Python3 wrapper module for the Counter-Strike: 2 Premier Leaderboards API.',
@@ -14,7 +18,6 @@ setup(
     package_data={
         '': ['maps.json', 'scoreboard.proto'],
     },
-    scripts=['CS2APY.py', 'scoreboard_pb2.py', '__init__.py'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
